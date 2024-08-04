@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
-import HelloWorld from '../views/HelloWorld.vue'
+import Assignment from '../views/Assignment.vue'
 
 const router = createRouter({
     //history: createWebHistory(''),
@@ -8,7 +8,7 @@ const router = createRouter({
       {
         path: '/',
         name: 'index',
-        component: HelloWorld
+        component: Assignment
       }
     ]
   })

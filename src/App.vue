@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './views/HelloWorld.vue'
+import Assignment from './views/Assignment.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Hello World" />
+  <Assignment></Assignment>
 </template>
 
 <style scoped></style>
